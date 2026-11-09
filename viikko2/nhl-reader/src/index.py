@@ -1,4 +1,4 @@
-from urllib import response
+#from urllib import response
 
 import requests
 from player import Player
@@ -6,17 +6,20 @@ from player import Player
 class PlayerReader:
 
     def __init__(self, url):
-        self.response = requests.get(url).json()
-        
+        self.response = requests.get(url, timeout=10).json()
+
 
     def get_players(self):
         players = []
-        
+
         for player_dict in self.response:
             player = Player(player_dict)
             players.append(player)
 
         return players
+
+    def dosomething(self):
+        print("Doing something")
 
 class PlayerStats:
 
@@ -29,10 +32,13 @@ class PlayerStats:
             if player.nationality == nationality:
                 pisteytetty.append((player.pisteet, player))
                 #print(player)
-    
+
         pisteytetty.sort(key=lambda item: item[0])
         print(pisteytetty)
         return pisteytetty
+
+    def dosomething(self):
+        print("Doing something")
 
 def main():
     url = "https://studies.cs.helsinki.fi/nhlstats/2024-25/players"
@@ -40,18 +46,14 @@ def main():
     #print("JSON-muotoinen vastaus:")
 #    print(response)
     reader = PlayerReader(url)
-    
+
     pelaajat = reader.get_players()
     stats = PlayerStats(pelaajat)
     players = stats.top_scorers_by_nationality("FIN")
 
     for player in players:
         print(player[1])
-    
 
-    
-
-    
 
 if __name__ == "__main__":
     main()
