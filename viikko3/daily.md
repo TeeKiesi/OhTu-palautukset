@@ -1,0 +1,5 @@
+Hyvä daily scrum näyttää pääasiassa aktiiviselta. Tiimiläiset ottavat toistensa ongelmat huomioon sekä uskaltavat puhua ongelmistaan. Tässä on tärkeää hyvä psykologinen turvallisuus. Tiimiläiset eivät solvaa toisiaan tai kohtele välinpitämättömästi. Jos joku alkaa käyttäytyä huonosti tiimin kannattaa puuttua siihen. Todennäköisesti kuitenkin kannattaa puuttua asiaan vasta palaverin jälkeen ellei käytös olle todella radikaalia.
+
+Jokaiseen ongelmaan ei pidä käyttää loputtomasti aikaa. Tärkein on että ongelmat tuodaan esille. Jos tiimiläiset voivat työskennellä myöhemmin yhdessä ongelmaan voi palata tehokkaammin jälkeenpäin. Pienet ongelmat voi kuitenkin käydä nopeasti täysin läpi. Jokaiseen ongelmaan kuuluu kuitenkin käyttää hieman aikaa. Ongelman sivuuttaminen täysin on sama kuin ongelmaa ei olisi koskaa tuotu esiin. 
+
+Hyvä daily scrum ei myöskään ole todella laiska. Jotkut palaverit saattavat väsyttää, mutta turha ajanhukka vie työntekoon tai opiskelijalla elämiseen tarkoitettua aikaa pois.
